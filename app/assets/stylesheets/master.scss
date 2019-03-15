@@ -8,6 +8,16 @@ hr {
   clear: both;
 }
 
+h1 {
+  font-family: 'ralewayregular';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'ralewaylight';
+}
+
 .clear {
   clear: clear;
 }
@@ -46,4 +56,6 @@ hr {
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #1F9BDE;
+  font-family: 'ralewaythin';
+  font-weight: bold;
 }
