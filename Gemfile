@@ -71,4 +71,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
+# Adding Simple Form aims to be as flexible as possible while helping you with powerful components to create your forms.
+
+gem 'simple_form'
+
 
