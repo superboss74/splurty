@@ -63,9 +63,14 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
 
-# Adding Bootsrap to the project
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+# this one seems to be a dependency for the 4.3.x version of Bootstrap
+gem 'sassc', '~> 2.0', '>= 2.0.1'
+
+# Adding Bootsrap to the project ###the original 4.0.0.alpha6 bootstrap version is now flagged by GH as having a security vulnerability
+# gem 'popper_js', '~> 1.11.1'
+gem 'popper_js', '~> 1.14.5'
+# gem 'bootstrap', '4.0.0.alpha6'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
