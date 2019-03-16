@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+::selection {
+  background-color: #f84342;
+}
+
 header {
   border-top: 9px solid #222222;
 }
@@ -16,6 +20,11 @@ h1 {
 
 h2 {
   font-family: 'ralewaylight';
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'ralewayregular';
 }
 
 .clear {
@@ -46,6 +55,7 @@ h2 {
   text-decoration: none;
 }
 
+
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
@@ -75,6 +85,10 @@ h2 {
   margin-left: 20px;
 }
 
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
 .next-quote:hover {
   text-decoration: none;
 }
@@ -84,4 +98,10 @@ h2 {
   font-style: italic;
   text-align: right;
   font-size: 15px;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: center;
+  }
 }
